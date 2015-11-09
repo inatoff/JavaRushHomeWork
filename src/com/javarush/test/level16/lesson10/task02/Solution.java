@@ -13,7 +13,7 @@ PS: метод sleep выбрасывает InterruptedException.
 
 public class Solution
 {
-    public static volatile int countSeconds = 5;
+    public static volatile int countSeconds = 3;
 
     public static void main(String[] args) throws InterruptedException
     {
